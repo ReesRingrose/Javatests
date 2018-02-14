@@ -23,7 +23,7 @@ public class Main {
 
     public static class TuneBook
     {
-        ArrayList<String> obj = new ArrayList<String>();
+        ArrayList<String> Tunes = new ArrayList<String>();
 
     }
 }
