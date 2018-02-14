@@ -1,6 +1,29 @@
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+
+
+    }
+
+   public static class Tune
+    {
+        int x;
+        String title,altTitle,notation;
+
+
+        void ToString()
+        {
+
+
+        }
+    }
+
+    public static class TuneBook
+    {
+        ArrayList<String> obj = new ArrayList<String>();
+
     }
 }
