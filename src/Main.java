@@ -8,6 +8,11 @@ public class Main {
     public static void main(String[] args) {
 
 
+        TuneBook tb = new TuneBook("hnj0.abc");
+        System.out.println(tb);
+
+        Tune t = tb.findTune("Scotsman over the Border");
+        t.play();
 
     }
 
@@ -21,6 +26,9 @@ public class Main {
         {
 
 
+        }
+
+        public void play() {
         }
     }
 
@@ -59,6 +67,20 @@ public class Main {
                     }
                 }
             }
+        }
+
+
+        public String ToString()
+        {
+            int i=Tunes.length;
+            while(i!=0)
+            {
+                return Tunes(i);
+
+                i--;
+
+            }
+
         }
 
     }
